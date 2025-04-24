@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background: url(image/pertamina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #080707;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid transparent;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+button, input[type="submit"] {
+    background-color:  rgb(0, 0, 0);
+    color: rgb(243, 243, 243);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #e61111;
+}

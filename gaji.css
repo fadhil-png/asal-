@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #3894a1;
+    margin-top: 30px;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(200, 247, 11);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container select, .form-container input, .form-container button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #c77575;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-container select:focus, .form-container input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.form-container button {
+    background-color: #2f404f;
+    color: rgb(231, 231, 231);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #3894a1;
+}
+
+.form-container a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3894a1;
+    font-weight: 600;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.form-container a:hover {
+    color: #3894a1;
+}
+
+/* Style untuk hasil perhitungan */
+.result-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.result-container p {
+    font-size: 18px;
+}
+
+.result-container strong {
+    font-size: 20px;
+    color:rgb(35, 61, 207);
+}
