@@ -1,0 +1,2 @@
+# asal-
+karena saya gabut
